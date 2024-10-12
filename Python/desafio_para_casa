@@ -1,0 +1,16 @@
+
+class pessoa:
+    def __init__(self, nome, peso, idade, comer, falar, dormir, acordar=False):
+        self.dormir = dormir
+        self.acordar = acordar
+        self.comer = comer
+        self.falar = falar
+        self.nome = nome
+        self.peso = peso
+        self.idade = idade
+
+    def movimento(self, comer, falar, dormir=False):
+        if self.comer== False:
+            if self.falar== False:
+                if self.dormir== False:
+                    print(pessoa)
